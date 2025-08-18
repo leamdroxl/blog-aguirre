@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card {
+    width: 400px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.--ivanIMG {
+    object-position: 0px -50px;
+}
+
+.--milagrosIMG {
+    object-position: 0px -80px;
+}
+
+.navBar {
+    background-color: brown;
+}
